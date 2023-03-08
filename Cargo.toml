@@ -1,0 +1,11 @@
+[package]
+name = "x-in-y-cli"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+clap = { version = "4.1.8", features = ["derive"] }
+reqwest = {version ="0.11.14",features=["blocking"]}
+url = "2.3.1"
