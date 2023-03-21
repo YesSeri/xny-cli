@@ -9,3 +9,5 @@ edition = "2021"
 clap = { version = "4.1.8", features = ["derive"] }
 reqwest = {version ="0.11.14",features=["blocking"]}
 url = "2.3.1"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0.94"
