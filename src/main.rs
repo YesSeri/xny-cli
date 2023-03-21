@@ -1,6 +1,6 @@
 use clap::Parser;
 use serde::Deserialize;
-use std::fs::{self, create_dir_all, File};
+use std::fs::{create_dir_all, File};
 use std::io::Write;
 use std::path::PathBuf;
 use url::Url;
@@ -10,12 +10,11 @@ use url::Url;
 #[command(author, version, about, long_about = None)]
 struct Args {
     /// The language to find documentation for
-    #[arg(short, long)]
     language: String,
 
     /// The default way to view content is less
-    #[arg(short, long)]
-    viewer: Option<String>,
+    #[clap(default_value = "less", short, long)]
+    viewer: String,
 }
 #[derive(Debug, Deserialize)]
 struct LinkInfo {
@@ -31,7 +30,7 @@ const URL_PREFIX: &str = "https://learnxinyminutes.com/";
 fn main() -> Result<(), Box<dyn std::error::Error>> {
     let args = Args::parse();
     let language: String = args.language.to_lowercase();
-    let viewer = args.viewer.unwrap_or("less".to_string());
+    let viewer = args.viewer;
 
     let text = include_str!("../data.json");
     let infos: Vec<LinkInfo> = serde_json::from_str(text)?;
