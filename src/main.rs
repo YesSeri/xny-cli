@@ -5,7 +5,9 @@ use std::io::Write;
 use std::path::PathBuf;
 use url::Url;
 
-/// The src code examples are saved in /var/tmp/x-in-y
+/// A cli tool for viewing the documentation for a language.
+/// It uses the excellent learnxinyminutes.com website by Adam Bard.
+/// The src code examples are saved in /var/tmp/x-in-y.
 #[derive(Parser, Debug)]
 #[command(author, version, about, long_about = None)]
 struct Args {
@@ -63,11 +65,16 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
             .expect("could not write to file");
     }
 
-    // if !credit_path.exists() {
-    //     let mut file = File::create(&credit_path).expect("could not create file.");
-    //     file.write_all(credit.as_bytes())
-    //         .expect("could not write to file");
-    // }
+    let credit = format!(
+        "credit: {}\n{}",
+        info.contributor_text, info.contributor_link
+    );
+
+    if !credit_path.exists() {
+        let mut file = File::create(&credit_path).expect("could not create file.");
+        file.write_all(credit.as_bytes())
+            .expect("could not write to file");
+    }
 
     std::process::Command::new(viewer)
         .args([file_path, credit_path])
@@ -76,10 +83,6 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
         .wait()
         .expect("wait failed");
 
-    let credit = format!(
-        "credit: {}\n{}",
-        info.contributor_text, info.contributor_link
-    );
     println!("{credit}");
     Ok(())
 }
