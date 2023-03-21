@@ -64,21 +64,11 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
             .expect("could not write to file");
     }
 
-    if !credit_path.exists() {
-        let credit = format!(
-            "
-==============================================================================
-credit
-==============================================================================
-{}
-
-{}",
-            info.contributor_text, info.contributor_link
-        );
-        let mut file = File::create(&credit_path).expect("could not create file.");
-        file.write_all(credit.as_bytes())
-            .expect("could not write to file");
-    }
+    // if !credit_path.exists() {
+    //     let mut file = File::create(&credit_path).expect("could not create file.");
+    //     file.write_all(credit.as_bytes())
+    //         .expect("could not write to file");
+    // }
 
     std::process::Command::new(viewer)
         .args([file_path, credit_path])
@@ -86,5 +76,11 @@ credit
         .expect("command failed")
         .wait()
         .expect("wait failed");
+
+    let credit = format!(
+        "credit: {}\n{}",
+        info.contributor_text, info.contributor_link
+    );
+    println!("{credit}");
     Ok(())
 }
