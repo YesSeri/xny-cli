@@ -4,22 +4,25 @@ A way to use [Learn X in Y Minutes](https://learnxinyminutes.com/) on the comman
 
 I look up languages often on this page, and I thought it would be nice to make it similar to `man` pages in linux, so I wrote a small script.
 
+Only available on linux. 
 
 
 ## Installation
 
 ```bash
-git clone https://github.com/YesSeri/x-in-y-cli
+git clone https://github.com/YesSeri/x_in_y-cli
 cargo build --release  
 # put file on path.
 ```
+
+or download a relase and put in path when that is available.
     
 ## Usage/Examples
 
 ```bash
-x-in-y python
+xny python
 # default viewer is less
-x-in-y python --viewer bat
+xny python --viewer bat
 ```
 `--viewer bat` would show the output in [bat](https://github.com/sharkdp/bat), the `cat` clone which syntax highlights.
 
