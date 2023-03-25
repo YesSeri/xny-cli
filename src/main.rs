@@ -21,7 +21,8 @@ struct Args {
 #[derive(Debug, Deserialize)]
 struct LinkInfo {
     name: String,
-    language_link: String,
+    #[serde(alias = "language_link")]
+    _language_link: String,
     source_code_link: String,
     contributor_text: String,
     contributor_link: String,
@@ -66,7 +67,7 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
     }
 
     let credit = format!(
-        "credit: {}\n{}",
+        "Cli written by Henrik Zenkert\nCode: {}\nFull list:{}",
         info.contributor_text, info.contributor_link
     );
 
