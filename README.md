@@ -17,9 +17,9 @@ cargo build --release
 ## Usage/Examples
 
 ```bash
-x-in-y --language python
+x-in-y python
 # default viewer is less
-x-in-y --language python --viewer bat
+x-in-y python --viewer bat
 ```
 `--viewer bat` would show the output in [bat](https://github.com/sharkdp/bat), the `cat` clone which syntax highlights.
 
