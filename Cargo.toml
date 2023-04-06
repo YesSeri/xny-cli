@@ -1,13 +1,29 @@
 [package]
 name = "x_in_y-cli"
-version = "1.0.0"
 edition = "2021"
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+version = "1.0.0"
 
 [dependencies]
-clap = { version = "4.1.8", features = ["derive"] }
-reqwest = {version ="0.11.14",features=["blocking"]}
-url = "2.3.1"
-serde = { version = "1.0", features = ["derive"] }
 serde_json = "1.0.94"
+url = "2.3.1"
+clap = { version = "4.2.1", features = ["derive"] }
+
+[dependencies.minreq]
+version = "2.7.0"
+features = ["https-rustls"]
+optional = false
+default-features = false
+
+[dependencies.serde]
+version = "1.0"
+features = ["serde_derive"]
+optional = false
+default-features = false
+
+[profile.release]
+opt-level = "z"
+lto = true
+codegen-units = 1
+panic = "abort"
+strip = true
+
