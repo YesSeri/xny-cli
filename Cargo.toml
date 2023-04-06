@@ -1,5 +1,5 @@
 [package]
-name = "x_in_y-cli"
+name = "xny-cli"
 edition = "2021"
 version = "1.0.0"
 
