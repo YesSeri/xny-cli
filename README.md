@@ -20,9 +20,14 @@ or download a relase and put in path when that is available.
 ## Usage/Examples
 
 ```bash
-xny python
 # default viewer is less
+xny python
+
+# use bat as viewer
 xny python --viewer bat
+
+# list all languages
+xny -s
 ```
 `--viewer bat` would show the output in [bat](https://github.com/sharkdp/bat), the `cat` clone which syntax highlights.
 
