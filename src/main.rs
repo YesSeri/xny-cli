@@ -65,9 +65,6 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
             .find(|info| *info.name.to_lowercase() == language.to_lowercase())
             .ok_or("Could not find language").unwrap();
 
-        println!("lang: {:?}", language);
-        println!("view: {:?}", viewer);
-        println!("folder: {:?}", folder);
         let url = Url::parse(&format!("{}{}", URL_PREFIX, &info.source_code_link)).unwrap();
 
         let path_segments = url.path_segments().ok_or("invalid path segments").unwrap();
