@@ -1,4 +1,4 @@
-# xiny-cli
+# xny-cli
 
 A way to use [Learn X in Y Minutes](https://learnxinyminutes.com/) on the command line.
 
