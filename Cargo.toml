@@ -6,13 +6,8 @@ version = "1.0.0"
 [dependencies]
 serde_json = "1.0.94"
 url = "2.3.1"
-clap = { version = "4.2.1", features = ["derive"] }
-
-[dependencies.minreq]
-version = "2.7.0"
-features = ["https-rustls"]
-optional = false
-default-features = false
+clap = { version = "4.2.1", features = ["derive", "std"], default-features = false }
+minreq = { version = "2.7.0", features = ["https"] }
 
 [dependencies.serde]
 version = "1.0"
