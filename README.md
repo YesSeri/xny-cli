@@ -8,8 +8,10 @@ I look up languages often on this page, and I thought it would be nice to make i
 ## Installation
 
 ```bash
-git clone https://github.com/YesSeri/x_in_y-cli
-cargo build --release  
+git clone git@github.com:YesSeri/xny-cli.git
+
+cargo build --release
+
 # put file on path.
 ```
 
