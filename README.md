@@ -4,8 +4,6 @@ A way to use [Learn X in Y Minutes](https://learnxinyminutes.com/) on the comman
 
 I look up languages often on this page, and I thought it would be nice to make it similar to `man` pages in linux, so I wrote a small script.
 
-Only available on linux. 
-
 
 ## Installation
 
