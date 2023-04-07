@@ -29,7 +29,7 @@ xny python --viewer bat
 # list all languages
 xny -s
 ```
-`--viewer bat` would show the output in [bat](https://github.com/sharkdp/bat), the `cat` clone which syntax highlights.
+`--viewer bat` would show the output in [bat](https://github.com/sharkdp/bat), the `cat` clone which syntax highlights. It is of course possible to pipe the content into bat, but then you need to set the syntax highlighting manually.
 
 
 ## Credit
