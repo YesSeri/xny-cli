@@ -10,7 +10,7 @@ use url::Url;
 /// It uses the excellent learnxinyminutes.com website by Adam Bard.
 /// The src code examples are saved in /var/tmp/x-in-y.
 #[derive(Parser, Default)]
-#[command(about = "Does awesome things", long_about = None)]
+#[command(about = "View documentation in code form", long_about = None)]
 struct Cli {
     /// Language to find documentation for, e.g. rust, python, javascript.
     #[arg(help = "Language to find documentation for", required_unless_present = "show_languages")]
@@ -38,7 +38,7 @@ struct LinkInfo {
 const URL_PREFIX: &str = "https://learnxinyminutes.com/";
 
 
-fn get_infos() -> Result<Vec<LinkInfo>, Box<dyn std::error::Error>> {
+fn get_infos() -> Result<Vec<LinkInfo>, Box<serde_json::Error>> {
     let text = include_str!("../data.json");
     let infos: Vec<LinkInfo> = serde_json::from_str(text)?;
     Ok(infos)
@@ -52,13 +52,12 @@ fn init(cli: Cli) -> (String, Option<String>, PathBuf) {
     (language, viewer, folder)
 }
 
-fn main() -> Result<(), Box<dyn std::error::Error>> {
-    let cli = Cli::parse();
-    let info_vec = get_infos()?;
-    if cli.show_languages {
-        let lang_string = show_available_langs(info_vec);
-        println!("Available languages:\n{}", lang_string);
-    } else {
+fn display_available_languages(info_vec: Vec<LinkInfo>){
+    let lang_string = show_available_langs(info_vec);
+    println!("Available languages:\n{}", lang_string);
+}
+
+fn display_documentation(cli: Cli, info_vec: Vec<LinkInfo>)-> Result<(), Box<dyn std::error::Error>>{
         let (language, viewer, folder) = init(cli);
         let info = info_vec.into_iter()
             .find(|info| *info.name.to_lowercase() == language.to_lowercase())
@@ -78,7 +77,7 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
         }
 
         let credit = format!(
-            "Cli written by Henrik Zenkert\nCode: {}\nFull list:{}",
+            "Cli written by Henrik Zenkert, henrik.zenkert@gmail.com\nCode: {}\nFull list:{}",
             info.contributor_text, info.contributor_link
         );
 
@@ -91,16 +90,22 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
             Some(viewer) if cfg!(target_os = "linux") => { run_process(viewer, file_path, credit_path) }
             _ => { print_stdout(file_path, credit).expect("Could not print to stdout."); }
         }
+        Ok(())
+}
+
+fn main() -> Result<(), Box<dyn std::error::Error>> {
+    let cli = Cli::parse();
+    let info_vec = get_infos()?;
+    if cli.show_languages {
+        display_available_languages(info_vec);
+    } else {
+        display_documentation(cli, info_vec)?;
     }
     Ok(())
 }
 
 fn show_available_langs(info_vec: Vec<LinkInfo>) -> String {
-    let mut acc = String::new();
-    for info in info_vec {
-        acc.push_str(&format!("{}\n", info.name));
-    }
-    acc
+    info_vec.into_iter().map(|info| info.name).collect::<Vec<String>>().join("\n")
 }
 
 fn run_process(viewer: String, file_path: PathBuf, credit_path: PathBuf) {
@@ -116,7 +121,7 @@ fn print_stdout(file_path: PathBuf, credit: String) -> std::io::Result<()> {
     let mut file = File::open(file_path)?;
     let mut contents = String::new();
     file.read_to_string(&mut contents)?;
-    println!("{}", contents);
-    println!("{}", credit);
+    println!("{contents}");
+    println!("{credit}");
     Ok(())
 }
