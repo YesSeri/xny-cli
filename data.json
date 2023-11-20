@@ -2,1099 +2,1099 @@
   {
     "name": "asciidoc",
     "language_link": "/docs/asciidoc/",
-    "source_code_link": "/docs/files/asciidoc.md",
+    "source_code_link": "/files/asciidoc.md",
     "contributor_text": "Originally contributed by Ryan Mavilia, and updated by 2 contributor(s).",
     "contributor_link": "https://github.com/adambard/learnxinyminutes-docs/blame/master/asciidoc.html.markdown"
   },
   {
     "name": "bc",
     "language_link": "/docs/bc/",
-    "source_code_link": "/docs/files/learnbc.bc",
+    "source_code_link": "/files/learnbc.bc",
     "contributor_text": "Originally contributed by Btup, and updated by 0 contributor(s).",
     "contributor_link": "https://github.com/adambard/learnxinyminutes-docs/blame/master/bc.html.markdown"
   },
   {
     "name": "bf",
     "language_link": "/docs/bf/",
-    "source_code_link": "/docs/files/bf.bf",
+    "source_code_link": "/files/bf.bf",
     "contributor_text": "Originally contributed by Prajit Ramachandran, and updated by 3 contributor(s).",
     "contributor_link": "https://github.com/adambard/learnxinyminutes-docs/blame/master/bf.html.markdown"
   },
   {
     "name": "C",
     "language_link": "/docs/c/",
-    "source_code_link": "/docs/files/learnc.c",
+    "source_code_link": "/files/learnc.c",
     "contributor_text": "Originally contributed by Adam Bard, and updated by 49 contributor(s).",
     "contributor_link": "https://github.com/adambard/learnxinyminutes-docs/blame/master/c.html.markdown"
   },
   {
     "name": "C#",
     "language_link": "/docs/csharp/",
-    "source_code_link": "/docs/files/LearnCSharp.cs",
+    "source_code_link": "/files/LearnCSharp.cs",
     "contributor_text": "Originally contributed by Irfan Charania, and updated by 45 contributor(s).",
     "contributor_link": "https://github.com/adambard/learnxinyminutes-docs/blame/master/csharp.html.markdown"
   },
   {
     "name": "C++",
     "language_link": "/docs/c++/",
-    "source_code_link": "/docs/files/learncpp.cpp",
+    "source_code_link": "/files/learncpp.cpp",
     "contributor_text": "Originally contributed by Steven Basart, and updated by 42 contributor(s).",
     "contributor_link": "https://github.com/adambard/learnxinyminutes-docs/blame/master/c++.html.markdown"
   },
   {
     "name": "Cairo",
     "language_link": "/docs/cairo/",
-    "source_code_link": "/docs/files/learnCairo.sol",
+    "source_code_link": "/files/learnCairo.sol",
     "contributor_text": "Originally contributed by Darlington Nnam, and updated by 2 contributor(s).",
     "contributor_link": "https://github.com/adambard/learnxinyminutes-docs/blame/master/cairo.html.markdown"
   },
   {
     "name": "chapel",
     "language_link": "/docs/chapel/",
-    "source_code_link": "/docs/files/learnchapel.chpl",
+    "source_code_link": "/files/learnchapel.chpl",
     "contributor_text": "Originally contributed by Ian J. Bertolacci, and updated by 11 contributor(s).",
     "contributor_link": "https://github.com/adambard/learnxinyminutes-docs/blame/master/chapel.html.markdown"
   },
   {
     "name": "CHICKEN",
     "language_link": "/docs/CHICKEN/",
-    "source_code_link": "/docs/files/CHICKEN.scm",
+    "source_code_link": "/files/CHICKEN.scm",
     "contributor_text": "Originally contributed by Diwakar Wagle, and updated by 5 contributor(s).",
     "contributor_link": "https://github.com/adambard/learnxinyminutes-docs/blame/master/CHICKEN.html.markdown"
   },
   {
     "name": "clojure",
     "language_link": "/docs/clojure/",
-    "source_code_link": "/docs/files/learnclojure.clj",
+    "source_code_link": "/files/learnclojure.clj",
     "contributor_text": "Originally contributed by Adam Bard, and updated by 11 contributor(s).",
     "contributor_link": "https://github.com/adambard/learnxinyminutes-docs/blame/master/clojure.html.markdown"
   },
   {
     "name": "clojure macros",
     "language_link": "/docs/clojure-macros/",
-    "source_code_link": "/docs/files/learnclojuremacros.clj",
+    "source_code_link": "/files/learnclojuremacros.clj",
     "contributor_text": "Originally contributed by Adam Bard, and updated by 4 contributor(s).",
     "contributor_link": "https://github.com/adambard/learnxinyminutes-docs/blame/master/clojure-macros.html.markdown"
   },
   {
     "name": "COBOL",
     "language_link": "/docs/cobol/",
-    "source_code_link": "/docs/files/learn.COB",
+    "source_code_link": "/files/learn.COB",
     "contributor_text": "Originally contributed by Hyphz, and updated by 6 contributor(s).",
     "contributor_link": "https://github.com/adambard/learnxinyminutes-docs/blame/master/cobol.html.markdown"
   },
   {
     "name": "coffeescript",
     "language_link": "/docs/coffeescript/",
-    "source_code_link": "/docs/files/coffeescript.coffee",
+    "source_code_link": "/files/coffeescript.coffee",
     "contributor_text": "Originally contributed by Tenor Biel, and updated by 8 contributor(s).",
     "contributor_link": "https://github.com/adambard/learnxinyminutes-docs/blame/master/coffeescript.html.markdown"
   },
   {
     "name": "coldfusion",
     "language_link": "/docs/coldfusion/",
-    "source_code_link": "/docs/files/learncoldfusion.cfm",
+    "source_code_link": "/files/learncoldfusion.cfm",
     "contributor_text": "Originally contributed by Wayne Boka, and updated by 5 contributor(s).",
     "contributor_link": "https://github.com/adambard/learnxinyminutes-docs/blame/master/coldfusion.html.markdown"
   },
   {
     "name": "Common Lisp",
     "language_link": "/docs/common-lisp/",
-    "source_code_link": "/docs/files/commonlisp.lisp",
+    "source_code_link": "/files/commonlisp.lisp",
     "contributor_text": "Originally contributed by Paul Nathan, and updated by 10 contributor(s).",
     "contributor_link": "https://github.com/adambard/learnxinyminutes-docs/blame/master/common-lisp.html.markdown"
   },
   {
     "name": "Coq",
     "language_link": "/docs/coq/",
-    "source_code_link": "/docs/files/learncoq.v",
+    "source_code_link": "/files/learncoq.v",
     "contributor_text": "Originally contributed by Philip Zucker, and updated by 3 contributor(s).",
     "contributor_link": "https://github.com/adambard/learnxinyminutes-docs/blame/master/coq.html.markdown"
   },
   {
     "name": "crystal",
     "language_link": "/docs/crystal/",
-    "source_code_link": "/docs/files/learncrystal.cr",
+    "source_code_link": "/files/learncrystal.cr",
     "contributor_text": "Originally contributed by Vitalii Elenhaupt, and updated by 7 contributor(s).",
     "contributor_link": "https://github.com/adambard/learnxinyminutes-docs/blame/master/crystal.html.markdown"
   },
   {
     "name": "css",
     "language_link": "/docs/css/",
-    "source_code_link": "/docs/files/learncss.css",
+    "source_code_link": "/files/learncss.css",
     "contributor_text": "Originally contributed by Mohammad Valipour, and updated by 24 contributor(s).",
     "contributor_link": "https://github.com/adambard/learnxinyminutes-docs/blame/master/css.html.markdown"
   },
   {
     "name": "cypher",
     "language_link": "/docs/cypher/",
-    "source_code_link": "/docs/files/LearnCypher.cql",
+    "source_code_link": "/files/LearnCypher.cql",
     "contributor_text": "Originally contributed by Théo Gauchoux, and updated by 3 contributor(s).",
     "contributor_link": "https://github.com/adambard/learnxinyminutes-docs/blame/master/cypher.html.markdown"
   },
   {
     "name": "D",
     "language_link": "/docs/d/",
-    "source_code_link": "/docs/files/learnd.d",
+    "source_code_link": "/files/learnd.d",
     "contributor_text": "Originally contributed by Nick Papanastasiou, and updated by 10 contributor(s).",
     "contributor_link": "https://github.com/adambard/learnxinyminutes-docs/blame/master/d.html.markdown"
   },
   {
     "name": "dart",
     "language_link": "/docs/dart/",
-    "source_code_link": "/docs/files/learndart.dart",
+    "source_code_link": "/files/learndart.dart",
     "contributor_text": "Originally contributed by Joao Pedrosa, and updated by 14 contributor(s).",
     "contributor_link": "https://github.com/adambard/learnxinyminutes-docs/blame/master/dart.html.markdown"
   },
   {
     "name": "Dhall",
     "language_link": "/docs/dhall/",
-    "source_code_link": "/docs/files/learndhall.dhall",
+    "source_code_link": "/files/learndhall.dhall",
     "contributor_text": "Originally contributed by Gabriel Gonzalez, and updated by 1 contributor(s).",
     "contributor_link": "https://github.com/adambard/learnxinyminutes-docs/blame/master/dhall.html.markdown"
   },
   {
     "name": "Easylang",
     "language_link": "/docs/easylang/",
-    "source_code_link": "/docs/files/easylang.el",
+    "source_code_link": "/files/easylang.el",
     "contributor_text": "Originally contributed by chkas, and updated by 0 contributor(s).",
     "contributor_link": "https://github.com/adambard/learnxinyminutes-docs/blame/master/easylang.html.markdown"
   },
   {
     "name": "edn",
     "language_link": "/docs/edn/",
-    "source_code_link": "/docs/files/learnedn.edn",
+    "source_code_link": "/files/learnedn.edn",
     "contributor_text": "Originally contributed by Jason Yeo, and updated by 6 contributor(s).",
     "contributor_link": "https://github.com/adambard/learnxinyminutes-docs/blame/master/edn.html.markdown"
   },
   {
     "name": "elisp",
     "language_link": "/docs/elisp/",
-    "source_code_link": "/docs/files/learn-emacs-lisp.el",
+    "source_code_link": "/files/learn-emacs-lisp.el",
     "contributor_text": "Originally contributed by Bastien Guerry, and updated by 10 contributor(s).",
     "contributor_link": "https://github.com/adambard/learnxinyminutes-docs/blame/master/elisp.html.markdown"
   },
   {
     "name": "elixir",
     "language_link": "/docs/elixir/",
-    "source_code_link": "/docs/files/learnelixir.ex",
+    "source_code_link": "/files/learnelixir.ex",
     "contributor_text": "Originally contributed by Joao Marques, and updated by 25 contributor(s).",
     "contributor_link": "https://github.com/adambard/learnxinyminutes-docs/blame/master/elixir.html.markdown"
   },
   {
     "name": "Elm",
     "language_link": "/docs/elm/",
-    "source_code_link": "/docs/files/learnelm.elm",
+    "source_code_link": "/files/learnelm.elm",
     "contributor_text": "Originally contributed by Max Goldstein, and updated by 7 contributor(s).",
     "contributor_link": "https://github.com/adambard/learnxinyminutes-docs/blame/master/elm.html.markdown"
   },
   {
     "name": "erlang",
     "language_link": "/docs/erlang/",
-    "source_code_link": "/docs/files/learnerlang.erl",
+    "source_code_link": "/files/learnerlang.erl",
     "contributor_text": "Originally contributed by Giovanni Cappellotto, and updated by 13 contributor(s).",
     "contributor_link": "https://github.com/adambard/learnxinyminutes-docs/blame/master/erlang.html.markdown"
   },
   {
     "name": "F#",
     "language_link": "/docs/fsharp/",
-    "source_code_link": "/docs/files/learnfsharp.fs",
+    "source_code_link": "/files/learnfsharp.fs",
     "contributor_text": "Originally contributed by Scott Wlaschin, and updated by 15 contributor(s).",
     "contributor_link": "https://github.com/adambard/learnxinyminutes-docs/blame/master/fsharp.html.markdown"
   },
   {
     "name": "factor",
     "language_link": "/docs/factor/",
-    "source_code_link": "/docs/files/learnfactor.factor",
+    "source_code_link": "/files/learnfactor.factor",
     "contributor_text": "Originally contributed by hyphz, and updated by 1 contributor(s).",
     "contributor_link": "https://github.com/adambard/learnxinyminutes-docs/blame/master/factor.html.markdown"
   },
   {
     "name": "forth",
     "language_link": "/docs/forth/",
-    "source_code_link": "/docs/files/learnforth.fs",
+    "source_code_link": "/files/learnforth.fs",
     "contributor_text": "Originally contributed by Horse M.D., and updated by 4 contributor(s).",
     "contributor_link": "https://github.com/adambard/learnxinyminutes-docs/blame/master/forth.html.markdown"
   },
   {
     "name": "Fortran",
     "language_link": "/docs/fortran90/",
-    "source_code_link": "/docs/files/learnfortran.f90",
+    "source_code_link": "/files/learnfortran.f90",
     "contributor_text": "Originally contributed by Robert Steed, and updated by 1 contributor(s).",
     "contributor_link": "https://github.com/adambard/learnxinyminutes-docs/blame/master/fortran90.html.markdown"
   },
   {
     "name": "FunC",
     "language_link": "/docs/func/",
-    "source_code_link": "/docs/files/learnFunC.fc",
+    "source_code_link": "/files/learnFunC.fc",
     "contributor_text": "Originally contributed by Ivan Romanovich, and updated by 1 contributor(s).",
     "contributor_link": "https://github.com/adambard/learnxinyminutes-docs/blame/master/func.html.markdown"
   },
   {
     "name": "GDScript",
     "language_link": "/docs/gdscript/",
-    "source_code_link": "/docs/files/learngdscript.gd",
+    "source_code_link": "/files/learngdscript.gd",
     "contributor_text": "Originally contributed by Wichamir, and updated by 1 contributor(s).",
     "contributor_link": "https://github.com/adambard/learnxinyminutes-docs/blame/master/gdscript.html.markdown"
   },
   {
     "name": "Go",
     "language_link": "/docs/go/",
-    "source_code_link": "/docs/files/learngo.go",
+    "source_code_link": "/files/learngo.go",
     "contributor_text": "Originally contributed by Sonia Keys, and updated by 47 contributor(s).",
     "contributor_link": "https://github.com/adambard/learnxinyminutes-docs/blame/master/go.html.markdown"
   },
   {
     "name": "Groovy",
     "language_link": "/docs/groovy/",
-    "source_code_link": "/docs/files/learngroovy.groovy",
+    "source_code_link": "/files/learngroovy.groovy",
     "contributor_text": "Originally contributed by Roberto Pérez Alcolea, and updated by 12 contributor(s).",
     "contributor_link": "https://github.com/adambard/learnxinyminutes-docs/blame/master/groovy.html.markdown"
   },
   {
     "name": "Hack",
     "language_link": "/docs/hack/",
-    "source_code_link": "/docs/files/learnhack.hh",
+    "source_code_link": "/files/learnhack.hh",
     "contributor_text": "Originally contributed by Andrew DiMola, and updated by 4 contributor(s).",
     "contributor_link": "https://github.com/adambard/learnxinyminutes-docs/blame/master/hack.html.markdown"
   },
   {
     "name": "haml",
     "language_link": "/docs/haml/",
-    "source_code_link": "/docs/files/learnhaml.haml",
+    "source_code_link": "/files/learnhaml.haml",
     "contributor_text": "Originally contributed by Simon Neveu, and updated by 5 contributor(s).",
     "contributor_link": "https://github.com/adambard/learnxinyminutes-docs/blame/master/haml.html.markdown"
   },
   {
     "name": "Haskell",
     "language_link": "/docs/haskell/",
-    "source_code_link": "/docs/files/learnhaskell.hs",
+    "source_code_link": "/files/learnhaskell.hs",
     "contributor_text": "Originally contributed by Adit Bhargava, and updated by 31 contributor(s).",
     "contributor_link": "https://github.com/adambard/learnxinyminutes-docs/blame/master/haskell.html.markdown"
   },
   {
     "name": "haxe",
     "language_link": "/docs/haxe/",
-    "source_code_link": "/docs/files/LearnHaxe3.hx",
+    "source_code_link": "/files/LearnHaxe3.hx",
     "contributor_text": "Originally contributed by Justin Donaldson, and updated by 9 contributor(s).",
     "contributor_link": "https://github.com/adambard/learnxinyminutes-docs/blame/master/haxe.html.markdown"
   },
   {
     "name": "hdl",
     "language_link": "/docs/hdl/",
-    "source_code_link": "/docs/files/learnhdl.hdl",
+    "source_code_link": "/files/learnhdl.hdl",
     "contributor_text": "Originally contributed by Jack Smith, and updated by 2 contributor(s).",
     "contributor_link": "https://github.com/adambard/learnxinyminutes-docs/blame/master/hdl.html.markdown"
   },
   {
     "name": "Hjson",
     "language_link": "/docs/hjson/",
-    "source_code_link": "/docs/files/learnhjson.hjson",
+    "source_code_link": "/files/learnhjson.hjson",
     "contributor_text": "Originally contributed by MrTeferi, and updated by 1 contributor(s).",
     "contributor_link": "https://github.com/adambard/learnxinyminutes-docs/blame/master/hjson.html.markdown"
   },
   {
     "name": "HQ9+",
     "language_link": "/docs/hq9+/",
-    "source_code_link": "/docs/files/hq9+.html",
+    "source_code_link": "/files/hq9+.html",
     "contributor_text": "Originally contributed by Alexey Nazaroff, and updated by 1 contributor(s).",
     "contributor_link": "https://github.com/adambard/learnxinyminutes-docs/blame/master/hq9+.html.markdown"
   },
   {
     "name": "html",
     "language_link": "/docs/html/",
-    "source_code_link": "/docs/files/learnhtml.txt",
+    "source_code_link": "/files/learnhtml.txt",
     "contributor_text": "Originally contributed by Christophe THOMAS, and updated by 5 contributor(s).",
     "contributor_link": "https://github.com/adambard/learnxinyminutes-docs/blame/master/html.html.markdown"
   },
   {
     "name": "hy",
     "language_link": "/docs/hy/",
-    "source_code_link": "/docs/files/learnhy.hy",
+    "source_code_link": "/files/learnhy.hy",
     "contributor_text": "Originally contributed by Abhishek L, and updated by 6 contributor(s).",
     "contributor_link": "https://github.com/adambard/learnxinyminutes-docs/blame/master/hy.html.markdown"
   },
   {
     "name": "Inform7",
     "language_link": "/docs/inform7/",
-    "source_code_link": "/docs/files/LearnInform.Inform",
+    "source_code_link": "/files/LearnInform.Inform",
     "contributor_text": "Originally contributed by Hyphz, and updated by 0 contributor(s).",
     "contributor_link": "https://github.com/adambard/learnxinyminutes-docs/blame/master/inform7.html.markdown"
   },
   {
     "name": "Janet",
     "language_link": "/docs/janet/",
-    "source_code_link": "/docs/files/learnJanet.janet",
+    "source_code_link": "/files/learnJanet.janet",
     "contributor_text": "Originally contributed by John Gabriele, and updated by 0 contributor(s).",
     "contributor_link": "https://github.com/adambard/learnxinyminutes-docs/blame/master/janet.html.markdown"
   },
   {
     "name": "java",
     "language_link": "/docs/java/",
-    "source_code_link": "/docs/files/LearnJava.java",
+    "source_code_link": "/files/LearnJava.java",
     "contributor_text": "Originally contributed by Jake Prather, and updated by 57 contributor(s).",
     "contributor_link": "https://github.com/adambard/learnxinyminutes-docs/blame/master/java.html.markdown"
   },
   {
     "name": "javascript",
     "language_link": "/docs/javascript/",
-    "source_code_link": "/docs/files/javascript.js",
+    "source_code_link": "/files/javascript.js",
     "contributor_text": "Originally contributed by Leigh Brenecki, and updated by 41 contributor(s).",
     "contributor_link": "https://github.com/adambard/learnxinyminutes-docs/blame/master/javascript.html.markdown"
   },
   {
     "name": "json",
     "language_link": "/docs/json/",
-    "source_code_link": "/docs/files/learnjson.json",
+    "source_code_link": "/files/learnjson.json",
     "contributor_text": "Originally contributed by Anna Harren, and updated by 14 contributor(s).",
     "contributor_link": "https://github.com/adambard/learnxinyminutes-docs/blame/master/json.html.markdown"
   },
   {
     "name": "jsonnet",
     "language_link": "/docs/jsonnet/",
-    "source_code_link": "/docs/files/learnjsonnet.jsonnet",
+    "source_code_link": "/files/learnjsonnet.jsonnet",
     "contributor_text": "Originally contributed by Huan Wang, and updated by 3 contributor(s).",
     "contributor_link": "https://github.com/adambard/learnxinyminutes-docs/blame/master/jsonnet.html.markdown"
   },
   {
     "name": "Julia",
     "language_link": "/docs/julia/",
-    "source_code_link": "/docs/files/learnjulia.jl",
+    "source_code_link": "/files/learnjulia.jl",
     "contributor_text": "Originally contributed by Leah Hanson, and updated by 29 contributor(s).",
     "contributor_link": "https://github.com/adambard/learnxinyminutes-docs/blame/master/julia.html.markdown"
   },
   {
     "name": "kdb+",
     "language_link": "/docs/kdb+/",
-    "source_code_link": "/docs/files/learnkdb.q",
+    "source_code_link": "/files/learnkdb.q",
     "contributor_text": "Originally contributed by Matt Doherty, and updated by 6 contributor(s).",
     "contributor_link": "https://github.com/adambard/learnxinyminutes-docs/blame/master/kdb+.html.markdown"
   },
   {
     "name": "kotlin",
     "language_link": "/docs/kotlin/",
-    "source_code_link": "/docs/files/LearnKotlin.kt",
+    "source_code_link": "/files/LearnKotlin.kt",
     "contributor_text": "Originally contributed by S Webber, and updated by 13 contributor(s).",
     "contributor_link": "https://github.com/adambard/learnxinyminutes-docs/blame/master/kotlin.html.markdown"
   },
   {
     "name": "latex",
     "language_link": "/docs/latex/",
-    "source_code_link": "/docs/files/learn-latex.tex",
+    "source_code_link": "/files/learn-latex.tex",
     "contributor_text": "Originally contributed by Chaitanya Krishna Ande, and updated by 18 contributor(s).",
     "contributor_link": "https://github.com/adambard/learnxinyminutes-docs/blame/master/latex.html.markdown"
   },
   {
     "name": "LB Stanza",
     "language_link": "/docs/lbstanza/",
-    "source_code_link": "/docs/files/learn-stanza.stanza",
+    "source_code_link": "/files/learn-stanza.stanza",
     "contributor_text": "Originally contributed by Mike Hilgendorf, and updated by 1 contributor(s).",
     "contributor_link": "https://github.com/adambard/learnxinyminutes-docs/blame/master/lbstanza.html.markdown"
   },
   {
     "name": "LDPL",
     "language_link": "/docs/ldpl/",
-    "source_code_link": "/docs/files/learnLDPL.ldpl",
+    "source_code_link": "/files/learnLDPL.ldpl",
     "contributor_text": "Originally contributed by Martín del Río, and updated by 2 contributor(s).",
     "contributor_link": "https://github.com/adambard/learnxinyminutes-docs/blame/master/ldpl.html.markdown"
   },
   {
     "name": "less",
     "language_link": "/docs/less/",
-    "source_code_link": "/docs/files/learnless.less",
+    "source_code_link": "/files/learnless.less",
     "contributor_text": "Originally contributed by Saravanan Ganesh, and updated by 5 contributor(s).",
     "contributor_link": "https://github.com/adambard/learnxinyminutes-docs/blame/master/less.html.markdown"
   },
   {
     "name": "Lisp Flavoured Erlang(LFE)",
     "language_link": "/docs/lfe/",
-    "source_code_link": "/docs/files/lispflavourederlang.lfe",
+    "source_code_link": "/files/lispflavourederlang.lfe",
     "contributor_text": "Originally contributed by Pratik Karki, and updated by 1 contributor(s).",
     "contributor_link": "https://github.com/adambard/learnxinyminutes-docs/blame/master/lfe.html.markdown"
   },
   {
     "name": "LiveScript",
     "language_link": "/docs/livescript/",
-    "source_code_link": "/docs/files/learnLivescript.ls",
+    "source_code_link": "/files/learnLivescript.ls",
     "contributor_text": "Originally contributed by Christina Whyte, and updated by 4 contributor(s).",
     "contributor_link": "https://github.com/adambard/learnxinyminutes-docs/blame/master/livescript.html.markdown"
   },
   {
     "name": "Logtalk",
     "language_link": "/docs/logtalk/",
-    "source_code_link": "/docs/files/learnlogtalk.lgt",
+    "source_code_link": "/files/learnlogtalk.lgt",
     "contributor_text": "Originally contributed by Paulo Moura, and updated by 1 contributor(s).",
     "contributor_link": "https://github.com/adambard/learnxinyminutes-docs/blame/master/logtalk.html.markdown"
   },
   {
     "name": "LOLCODE",
     "language_link": "/docs/LOLCODE/",
-    "source_code_link": "/docs/files/learnLOLCODE.lol",
+    "source_code_link": "/files/learnLOLCODE.lol",
     "contributor_text": "Originally contributed by abactel, and updated by 1 contributor(s).",
     "contributor_link": "https://github.com/adambard/learnxinyminutes-docs/blame/master/LOLCODE.html.markdown"
   },
   {
     "name": "Lua",
     "language_link": "/docs/lua/",
-    "source_code_link": "/docs/files/learnlua.lua",
+    "source_code_link": "/files/learnlua.lua",
     "contributor_text": "Originally contributed by Tyler Neylon, and updated by 9 contributor(s).",
     "contributor_link": "https://github.com/adambard/learnxinyminutes-docs/blame/master/lua.html.markdown"
   },
   {
     "name": "M (MUMPS)",
     "language_link": "/docs/m/",
-    "source_code_link": "/docs/files/LEARNM.m",
+    "source_code_link": "/files/LEARNM.m",
     "contributor_text": "Originally contributed by Fred Turkington, and updated by 2 contributor(s).",
     "contributor_link": "https://github.com/adambard/learnxinyminutes-docs/blame/master/m.html.markdown"
   },
   {
     "name": "markdown",
     "language_link": "/docs/markdown/",
-    "source_code_link": "/docs/files/markdown.md",
+    "source_code_link": "/files/markdown.md",
     "contributor_text": "Originally contributed by Dan Turkel, and updated by 16 contributor(s).",
     "contributor_link": "https://github.com/adambard/learnxinyminutes-docs/blame/master/markdown.html.markdown"
   },
   {
     "name": "Matlab",
     "language_link": "/docs/matlab/",
-    "source_code_link": "/docs/files/learnmatlab.mat",
+    "source_code_link": "/files/learnmatlab.mat",
     "contributor_text": "Originally contributed by mendozao, and updated by 24 contributor(s).",
     "contributor_link": "https://github.com/adambard/learnxinyminutes-docs/blame/master/matlab.html.markdown"
   },
   {
     "name": "MIPS Assembly",
     "language_link": "/docs/mips/",
-    "source_code_link": "/docs/files/MIPS.asm",
+    "source_code_link": "/files/MIPS.asm",
     "contributor_text": "Originally contributed by Stanley Lim, and updated by 9 contributor(s).",
     "contributor_link": "https://github.com/adambard/learnxinyminutes-docs/blame/master/mips.html.markdown"
   },
   {
     "name": "MongoDB",
     "language_link": "/docs/mongodb/",
-    "source_code_link": "/docs/files/mongo.js",
+    "source_code_link": "/files/mongo.js",
     "contributor_text": "Originally contributed by Raj Piskala, and updated by 1 contributor(s).",
     "contributor_link": "https://github.com/adambard/learnxinyminutes-docs/blame/master/mongodb.html.markdown"
   },
   {
     "name": "montilang",
     "language_link": "/docs/montilang/",
-    "source_code_link": "/docs/files/montilang.ml",
+    "source_code_link": "/files/montilang.ml",
     "contributor_text": "Originally contributed by Leo Whitehead, and updated by 1 contributor(s).",
     "contributor_link": "https://github.com/adambard/learnxinyminutes-docs/blame/master/montilang.html.markdown"
   },
   {
     "name": "moonscript",
     "language_link": "/docs/moonscript/",
-    "source_code_link": "/docs/files/moonscript.moon",
+    "source_code_link": "/files/moonscript.moon",
     "contributor_text": "Originally contributed by RyanSquared, and updated by 2 contributor(s).",
     "contributor_link": "https://github.com/adambard/learnxinyminutes-docs/blame/master/moonscript.html.markdown"
   },
   {
     "name": "neat",
     "language_link": "/docs/neat/",
-    "source_code_link": "/docs/files/LearnNeat.nt",
+    "source_code_link": "/files/LearnNeat.nt",
     "contributor_text": "Originally contributed by Feep, and updated by 2 contributor(s).",
     "contributor_link": "https://github.com/adambard/learnxinyminutes-docs/blame/master/neat.html.markdown"
   },
   {
     "name": "Nim",
     "language_link": "/docs/nim/",
-    "source_code_link": "/docs/files/learnNim.nim",
+    "source_code_link": "/files/learnNim.nim",
     "contributor_text": "Originally contributed by Jason J. Ayala P., and updated by 11 contributor(s).",
     "contributor_link": "https://github.com/adambard/learnxinyminutes-docs/blame/master/nim.html.markdown"
   },
   {
     "name": "nix",
     "language_link": "/docs/nix/",
-    "source_code_link": "/docs/files/learn.nix",
+    "source_code_link": "/files/learn.nix",
     "contributor_text": "Originally contributed by Chris Martin, and updated by 7 contributor(s).",
     "contributor_link": "https://github.com/adambard/learnxinyminutes-docs/blame/master/nix.html.markdown"
   },
   {
     "name": "Objective-C",
     "language_link": "/docs/objective-c/",
-    "source_code_link": "/docs/files/LearnObjectiveC.m",
+    "source_code_link": "/files/LearnObjectiveC.m",
     "contributor_text": "Originally contributed by Eugene Yagrushkin, and updated by 19 contributor(s).",
     "contributor_link": "https://github.com/adambard/learnxinyminutes-docs/blame/master/objective-c.html.markdown"
   },
   {
     "name": "OCaml",
     "language_link": "/docs/ocaml/",
-    "source_code_link": "/docs/files/learnocaml.ml",
+    "source_code_link": "/files/learnocaml.ml",
     "contributor_text": "Originally contributed by Daniil Baturin, and updated by 10 contributor(s).",
     "contributor_link": "https://github.com/adambard/learnxinyminutes-docs/blame/master/ocaml.html.markdown"
   },
   {
     "name": "openscad",
     "language_link": "/docs/openscad/",
-    "source_code_link": "/docs/files/learnopenscad.scad",
+    "source_code_link": "/files/learnopenscad.scad",
     "contributor_text": "Originally contributed by Tom Preston, and updated by 2 contributor(s).",
     "contributor_link": "https://github.com/adambard/learnxinyminutes-docs/blame/master/openscad.html.markdown"
   },
   {
     "name": "Paren",
     "language_link": "/docs/paren/",
-    "source_code_link": "/docs/files/learnparen.paren",
+    "source_code_link": "/files/learnparen.paren",
     "contributor_text": "Originally contributed by KIM Taegyoon, and updated by 3 contributor(s).",
     "contributor_link": "https://github.com/adambard/learnxinyminutes-docs/blame/master/paren.html.markdown"
   },
   {
     "name": "Pascal",
     "language_link": "/docs/pascal/",
-    "source_code_link": "/docs/files/learnpascal.pas",
+    "source_code_link": "/files/learnpascal.pas",
     "contributor_text": "Originally contributed by Ganesha Danu, and updated by 6 contributor(s).",
     "contributor_link": "https://github.com/adambard/learnxinyminutes-docs/blame/master/pascal.html.markdown"
   },
   {
     "name": "PCRE",
     "language_link": "/docs/pcre/",
-    "source_code_link": "/docs/files/pcre.txt",
+    "source_code_link": "/files/pcre.txt",
     "contributor_text": "Originally contributed by Sachin Divekar, and updated by 2 contributor(s).",
     "contributor_link": "https://github.com/adambard/learnxinyminutes-docs/blame/master/pcre.html.markdown"
   },
   {
     "name": "perl",
     "language_link": "/docs/perl/",
-    "source_code_link": "/docs/files/learnperl.pl",
+    "source_code_link": "/files/learnperl.pl",
     "contributor_text": "Originally contributed by Korjavin Ivan, and updated by 10 contributor(s).",
     "contributor_link": "https://github.com/adambard/learnxinyminutes-docs/blame/master/perl.html.markdown"
   },
   {
     "name": "phel",
     "language_link": "/docs/phel/",
-    "source_code_link": "/docs/files/learnphel.phel",
+    "source_code_link": "/files/learnphel.phel",
     "contributor_text": "Originally contributed by Chemaclass, and updated by 1 contributor(s).",
     "contributor_link": "https://github.com/adambard/learnxinyminutes-docs/blame/master/phel.html.markdown"
   },
   {
     "name": "PHP",
     "language_link": "/docs/php/",
-    "source_code_link": "/docs/files/learnphp.php",
+    "source_code_link": "/files/learnphp.php",
     "contributor_text": "Originally contributed by Malcolm Fell, and updated by 44 contributor(s).",
     "contributor_link": "https://github.com/adambard/learnxinyminutes-docs/blame/master/php.html.markdown"
   },
   {
     "name": "Pod",
     "language_link": "/docs/raku-pod/",
-    "source_code_link": "/docs/files/learnpod.pod6",
+    "source_code_link": "/files/learnpod.pod6",
     "contributor_text": "Originally contributed by Luis F. Uceta, and updated by 1 contributor(s).",
     "contributor_link": "https://github.com/adambard/learnxinyminutes-docs/blame/master/raku-pod.html.markdown"
   },
   {
     "name": "pogoscript",
     "language_link": "/docs/pogo/",
-    "source_code_link": "/docs/files/learnPogo.pogo",
+    "source_code_link": "/files/learnPogo.pogo",
     "contributor_text": "Originally contributed by Tim Macfarlane, and updated by 1 contributor(s).",
     "contributor_link": "https://github.com/adambard/learnxinyminutes-docs/blame/master/pogo.html.markdown"
   },
   {
     "name": "processing",
     "language_link": "/docs/processing/",
-    "source_code_link": "/docs/files/learnprocessing.pde",
+    "source_code_link": "/files/learnprocessing.pde",
     "contributor_text": "Originally contributed by Phone Than Ko, and updated by 4 contributor(s).",
     "contributor_link": "https://github.com/adambard/learnxinyminutes-docs/blame/master/processing.html.markdown"
   },
   {
     "name": "prolog",
     "language_link": "/docs/prolog/",
-    "source_code_link": "/docs/files/learnprolog.pl",
+    "source_code_link": "/files/learnprolog.pl",
     "contributor_text": "Originally contributed by hyphz, and updated by 4 contributor(s).",
     "contributor_link": "https://github.com/adambard/learnxinyminutes-docs/blame/master/prolog.html.markdown"
   },
   {
     "name": "protocol-buffers",
     "language_link": "/docs/protocol-buffer-3/",
-    "source_code_link": "/docs/files/protocol-buffers.proto",
+    "source_code_link": "/files/protocol-buffers.proto",
     "contributor_text": "Originally contributed by Shankar Shastri, and updated by 0 contributor(s).",
     "contributor_link": "https://github.com/adambard/learnxinyminutes-docs/blame/master/protocol-buffer-3.html.markdown"
   },
   {
     "name": "Pug",
     "language_link": "/docs/pug/",
-    "source_code_link": "/docs/files/index.pug",
+    "source_code_link": "/files/index.pug",
     "contributor_text": "Originally contributed by Michael Warner, and updated by 1 contributor(s).",
     "contributor_link": "https://github.com/adambard/learnxinyminutes-docs/blame/master/pug.html.markdown"
   },
   {
     "name": "PureScript",
     "language_link": "/docs/purescript/",
-    "source_code_link": "/docs/files/purescript.purs",
+    "source_code_link": "/files/purescript.purs",
     "contributor_text": "Originally contributed by Fredrik Dyrkell, and updated by 12 contributor(s).",
     "contributor_link": "https://github.com/adambard/learnxinyminutes-docs/blame/master/purescript.html.markdown"
   },
   {
     "name": "Python",
     "language_link": "/docs/python/",
-    "source_code_link": "/docs/files/learnpython.py",
+    "source_code_link": "/files/learnpython.py",
     "contributor_text": "Originally contributed by Louie Dinh, and updated by 10 contributor(s).",
     "contributor_link": "https://github.com/adambard/learnxinyminutes-docs/blame/master/python.html.markdown"
   },
   {
     "name": "Python 2 (legacy)",
     "language_link": "/docs/pythonlegacy/",
-    "source_code_link": "/docs/files/learnpythonlegacy.py",
+    "source_code_link": "/files/learnpythonlegacy.py",
     "contributor_text": "Originally contributed by Louie Dinh, and updated by 7 contributor(s).",
     "contributor_link": "https://github.com/adambard/learnxinyminutes-docs/blame/master/pythonlegacy.html.markdown"
   },
   {
     "name": "Q#",
     "language_link": "/docs/qsharp/",
-    "source_code_link": "/docs/files/LearnQSharp.qs",
+    "source_code_link": "/files/LearnQSharp.qs",
     "contributor_text": "Originally contributed by Vincent van Wingerden, and updated by 4 contributor(s).",
     "contributor_link": "https://github.com/adambard/learnxinyminutes-docs/blame/master/qsharp.html.markdown"
   },
   {
     "name": "R",
     "language_link": "/docs/r/",
-    "source_code_link": "/docs/files/learnr.r",
+    "source_code_link": "/files/learnr.r",
     "contributor_text": "Originally contributed by e99n09, and updated by 20 contributor(s).",
     "contributor_link": "https://github.com/adambard/learnxinyminutes-docs/blame/master/r.html.markdown"
   },
   {
     "name": "racket",
     "language_link": "/docs/racket/",
-    "source_code_link": "/docs/files/learnracket.rkt",
+    "source_code_link": "/files/learnracket.rkt",
     "contributor_text": "Originally contributed by th3rac25, and updated by 17 contributor(s).",
     "contributor_link": "https://github.com/adambard/learnxinyminutes-docs/blame/master/racket.html.markdown"
   },
   {
     "name": "Raku",
     "language_link": "/docs/raku/",
-    "source_code_link": "/docs/files/learnraku.raku",
+    "source_code_link": "/files/learnraku.raku",
     "contributor_text": "Originally contributed by vendethiel, and updated by 8 contributor(s).",
     "contributor_link": "https://github.com/adambard/learnxinyminutes-docs/blame/master/raku.html.markdown"
   },
   {
     "name": "RDF",
     "language_link": "/docs/rdf/",
-    "source_code_link": "/docs/files/learnrdf.ttl",
+    "source_code_link": "/files/learnrdf.ttl",
     "contributor_text": "Originally contributed by Bob DuCharme, and updated by 0 contributor(s).",
     "contributor_link": "https://github.com/adambard/learnxinyminutes-docs/blame/master/rdf.html.markdown"
   },
   {
     "name": "reason",
     "language_link": "/docs/reason/",
-    "source_code_link": "/docs/files/reason.re",
+    "source_code_link": "/files/reason.re",
     "contributor_text": "Originally contributed by Seth Corker, and updated by 2 contributor(s).",
     "contributor_link": "https://github.com/adambard/learnxinyminutes-docs/blame/master/reason.html.markdown"
   },
   {
     "name": "Red",
     "language_link": "/docs/red/",
-    "source_code_link": "/docs/files/learnred.red",
+    "source_code_link": "/files/learnred.red",
     "contributor_text": "Originally contributed by Arnold van Hofwegen, and updated by 10 contributor(s).",
     "contributor_link": "https://github.com/adambard/learnxinyminutes-docs/blame/master/red.html.markdown"
   },
   {
     "name": "restructured text (RST)",
     "language_link": "/docs/rst/",
-    "source_code_link": "/docs/files/restructuredtext.rst",
+    "source_code_link": "/files/restructuredtext.rst",
     "contributor_text": "Originally contributed by DamienVGN, and updated by 8 contributor(s).",
     "contributor_link": "https://github.com/adambard/learnxinyminutes-docs/blame/master/rst.html.markdown"
   },
   {
     "name": "ruby",
     "language_link": "/docs/ruby/",
-    "source_code_link": "/docs/files/learnruby.rb",
+    "source_code_link": "/files/learnruby.rb",
     "contributor_text": "Originally contributed by David Underwood, and updated by 53 contributor(s).",
     "contributor_link": "https://github.com/adambard/learnxinyminutes-docs/blame/master/ruby.html.markdown"
   },
   {
     "name": "Rust",
     "language_link": "/docs/rust/",
-    "source_code_link": "/docs/files/learnrust.rs",
+    "source_code_link": "/files/learnrust.rs",
     "contributor_text": "Originally contributed by P1start, and updated by 15 contributor(s).",
     "contributor_link": "https://github.com/adambard/learnxinyminutes-docs/blame/master/rust.html.markdown"
   },
   {
     "name": "sass",
     "language_link": "/docs/sass/",
-    "source_code_link": "/docs/files/learnsass.scss",
+    "source_code_link": "/files/learnsass.scss",
     "contributor_text": "Originally contributed by Laura Kyle, and updated by 4 contributor(s).",
     "contributor_link": "https://github.com/adambard/learnxinyminutes-docs/blame/master/sass.html.markdown"
   },
   {
     "name": "Scala",
     "language_link": "/docs/scala/",
-    "source_code_link": "/docs/files/learnscala.scala",
+    "source_code_link": "/files/learnscala.scala",
     "contributor_text": "Originally contributed by George Petrov, and updated by 29 contributor(s).",
     "contributor_link": "https://github.com/adambard/learnxinyminutes-docs/blame/master/scala.html.markdown"
   },
   {
     "name": "self",
     "language_link": "/docs/self/",
-    "source_code_link": "/docs/files/learnself.self",
+    "source_code_link": "/files/learnself.self",
     "contributor_text": "Originally contributed by Russell Allen, and updated by 3 contributor(s).",
     "contributor_link": "https://github.com/adambard/learnxinyminutes-docs/blame/master/self.html.markdown"
   },
   {
     "name": "Sing",
     "language_link": "/docs/sing/",
-    "source_code_link": "/docs/files/learnsing.sing",
+    "source_code_link": "/files/learnsing.sing",
     "contributor_text": "Originally contributed by Maurizio De Girolami, and updated by 1 contributor(s).",
     "contributor_link": "https://github.com/adambard/learnxinyminutes-docs/blame/master/sing.html.markdown"
   },
   {
     "name": "SmallBASIC",
     "language_link": "/docs/smallbasic/",
-    "source_code_link": "/docs/files/learnsmallbasic.bas",
+    "source_code_link": "/files/learnsmallbasic.bas",
     "contributor_text": "Originally contributed by Chris Warren-Smith, and updated by 0 contributor(s).",
     "contributor_link": "https://github.com/adambard/learnxinyminutes-docs/blame/master/smallbasic.html.markdown"
   },
   {
     "name": "Smalltalk",
     "language_link": "/docs/smalltalk/",
-    "source_code_link": "/docs/files/smalltalk.st",
+    "source_code_link": "/files/smalltalk.st",
     "contributor_text": "Originally contributed by Jigyasa Grover, and updated by 11 contributor(s).",
     "contributor_link": "https://github.com/adambard/learnxinyminutes-docs/blame/master/smalltalk.html.markdown"
   },
   {
     "name": "Solidity",
     "language_link": "/docs/solidity/",
-    "source_code_link": "/docs/files/learnSolidity.sol",
+    "source_code_link": "/files/learnSolidity.sol",
     "contributor_text": "Originally contributed by Nemil Dalal, and updated by 21 contributor(s).",
     "contributor_link": "https://github.com/adambard/learnxinyminutes-docs/blame/master/solidity.html.markdown"
   },
   {
     "name": "SQL",
     "language_link": "/docs/sql/",
-    "source_code_link": "/docs/files/learnsql.sql",
+    "source_code_link": "/files/learnsql.sql",
     "contributor_text": "Originally contributed by Bob DuCharme, and updated by 4 contributor(s).",
     "contributor_link": "https://github.com/adambard/learnxinyminutes-docs/blame/master/sql.html.markdown"
   },
   {
     "name": "Standard ML",
     "language_link": "/docs/standard-ml/",
-    "source_code_link": "/docs/files/standardml.sml",
+    "source_code_link": "/files/standardml.sml",
     "contributor_text": "Originally contributed by Simon Shine, and updated by 16 contributor(s).",
     "contributor_link": "https://github.com/adambard/learnxinyminutes-docs/blame/master/standard-ml.html.markdown"
   },
   {
     "name": "stylus",
     "language_link": "/docs/stylus/",
-    "source_code_link": "/docs/files/learnStylus.styl",
+    "source_code_link": "/files/learnStylus.styl",
     "contributor_text": "Originally contributed by Salomão Neto, and updated by 2 contributor(s).",
     "contributor_link": "https://github.com/adambard/learnxinyminutes-docs/blame/master/stylus.html.markdown"
   },
   {
     "name": "swift",
     "language_link": "/docs/swift/",
-    "source_code_link": "/docs/files/learnswift.swift",
+    "source_code_link": "/files/learnswift.swift",
     "contributor_text": "Originally contributed by Grant Timmerman, and updated by 30 contributor(s).",
     "contributor_link": "https://github.com/adambard/learnxinyminutes-docs/blame/master/swift.html.markdown"
   },
   {
     "name": "Tcl",
     "language_link": "/docs/tcl/",
-    "source_code_link": "/docs/files/learntcl.tcl",
+    "source_code_link": "/files/learntcl.tcl",
     "contributor_text": "Originally contributed by Poor Yorick, and updated by 11 contributor(s).",
     "contributor_link": "https://github.com/adambard/learnxinyminutes-docs/blame/master/tcl.html.markdown"
   },
   {
     "name": "Texinfo",
     "language_link": "/docs/texinfo/",
-    "source_code_link": "/docs/files/learntexinfo.texi",
+    "source_code_link": "/files/learntexinfo.texi",
     "contributor_text": "Originally contributed by Julien Lepiller, and updated by 0 contributor(s).",
     "contributor_link": "https://github.com/adambard/learnxinyminutes-docs/blame/master/texinfo.html.markdown"
   },
   {
     "name": "textile",
     "language_link": "/docs/textile/",
-    "source_code_link": "/docs/files/learn-textile.textile",
+    "source_code_link": "/files/learn-textile.textile",
     "contributor_text": "Originally contributed by Keith Miyake, and updated by 2 contributor(s).",
     "contributor_link": "https://github.com/adambard/learnxinyminutes-docs/blame/master/textile.html.markdown"
   },
   {
     "name": "toml",
     "language_link": "/docs/toml/",
-    "source_code_link": "/docs/files/learntoml.toml",
+    "source_code_link": "/files/learntoml.toml",
     "contributor_text": "Originally contributed by Alois de Gouvello, and updated by 6 contributor(s).",
     "contributor_link": "https://github.com/adambard/learnxinyminutes-docs/blame/master/toml.html.markdown"
   },
   {
     "name": "TypeScript",
     "language_link": "/docs/typescript/",
-    "source_code_link": "/docs/files/learntypescript.ts",
+    "source_code_link": "/files/learntypescript.ts",
     "contributor_text": "Originally contributed by Philippe Vlérick, and updated by 22 contributor(s).",
     "contributor_link": "https://github.com/adambard/learnxinyminutes-docs/blame/master/typescript.html.markdown"
   },
   {
     "name": "uxntal",
     "language_link": "/docs/uxntal/",
-    "source_code_link": "/docs/files/learnuxn.tal",
+    "source_code_link": "/files/learnuxn.tal",
     "contributor_text": "Originally contributed by Devine Lu Linvega, and updated by 0 contributor(s).",
     "contributor_link": "https://github.com/adambard/learnxinyminutes-docs/blame/master/uxntal.html.markdown"
   },
   {
     "name": "vala",
     "language_link": "/docs/vala/",
-    "source_code_link": "/docs/files/LearnVala.vala",
+    "source_code_link": "/files/LearnVala.vala",
     "contributor_text": "Originally contributed by Milo Gilad, and updated by 2 contributor(s).",
     "contributor_link": "https://github.com/adambard/learnxinyminutes-docs/blame/master/vala.html.markdown"
   },
   {
     "name": "Vimscript",
     "language_link": "/docs/vimscript/",
-    "source_code_link": "/docs/files/learnvimscript.vim",
+    "source_code_link": "/files/learnvimscript.vim",
     "contributor_text": "Originally contributed by HiPhish, and updated by 3 contributor(s).",
     "contributor_link": "https://github.com/adambard/learnxinyminutes-docs/blame/master/vimscript.html.markdown"
   },
   {
     "name": "Visual Basic",
     "language_link": "/docs/visualbasic/",
-    "source_code_link": "/docs/files/learnvisualbasic.vb",
+    "source_code_link": "/files/learnvisualbasic.vb",
     "contributor_text": "Originally contributed by Brian Martin, and updated by 9 contributor(s).",
     "contributor_link": "https://github.com/adambard/learnxinyminutes-docs/blame/master/visualbasic.html.markdown"
   },
   {
     "name": "Vyper",
     "language_link": "/docs/vyper/",
-    "source_code_link": "/docs/files/learnVyper.vy",
+    "source_code_link": "/files/learnVyper.vy",
     "contributor_text": "Originally contributed by Kenny Peluso, and updated by 1 contributor(s).",
     "contributor_link": "https://github.com/adambard/learnxinyminutes-docs/blame/master/vyper.html.markdown"
   },
   {
     "name": "WebAssembly",
     "language_link": "/docs/wasm/",
-    "source_code_link": "/docs/files/learn-wasm.wast",
+    "source_code_link": "/files/learn-wasm.wast",
     "contributor_text": "Originally contributed by Dean Shaff, and updated by 4 contributor(s).",
     "contributor_link": "https://github.com/adambard/learnxinyminutes-docs/blame/master/wasm.html.markdown"
   },
   {
     "name": "whip",
     "language_link": "/docs/whip/",
-    "source_code_link": "/docs/files/whip.lisp",
+    "source_code_link": "/files/whip.lisp",
     "contributor_text": "Originally contributed by Tenor Biel, and updated by 8 contributor(s).",
     "contributor_link": "https://github.com/adambard/learnxinyminutes-docs/blame/master/whip.html.markdown"
   },
   {
     "name": "wolfram",
     "language_link": "/docs/wolfram/",
-    "source_code_link": "/docs/files/learnwolfram.nb",
+    "source_code_link": "/files/learnwolfram.nb",
     "contributor_text": "Originally contributed by hyphz, and updated by 1 contributor(s).",
     "contributor_link": "https://github.com/adambard/learnxinyminutes-docs/blame/master/wolfram.html.markdown"
   },
   {
     "name": "xml",
     "language_link": "/docs/xml/",
-    "source_code_link": "/docs/files/learnxml.xml",
+    "source_code_link": "/files/learnxml.xml",
     "contributor_text": "Originally contributed by João Farias, and updated by 9 contributor(s).",
     "contributor_link": "https://github.com/adambard/learnxinyminutes-docs/blame/master/xml.html.markdown"
   },
   {
     "name": "yaml",
     "language_link": "/docs/yaml/",
-    "source_code_link": "/docs/files/learnyaml.yaml",
+    "source_code_link": "/files/learnyaml.yaml",
     "contributor_text": "Originally contributed by Leigh Brenecki, and updated by 12 contributor(s).",
     "contributor_link": "https://github.com/adambard/learnxinyminutes-docs/blame/master/yaml.html.markdown"
   },
   {
     "name": "zig",
     "language_link": "/docs/zig/",
-    "source_code_link": "/docs/files/learnzig.zig",
+    "source_code_link": "/files/learnzig.zig",
     "contributor_text": "Originally contributed by Philippe Pittoli, and updated by 2 contributor(s).",
     "contributor_link": "https://github.com/adambard/learnxinyminutes-docs/blame/master/zig.html.markdown"
   },
   {
     "name": "amd",
     "language_link": "/docs/amd/",
-    "source_code_link": "/docs/files/learnamd.js",
+    "source_code_link": "/files/learnamd.js",
     "contributor_text": "Originally contributed by Frederik Ring, and updated by 2 contributor(s).",
     "contributor_link": "https://github.com/adambard/learnxinyminutes-docs/blame/master/amd.html.markdown"
   },
   {
     "name": "AngularJS",
     "language_link": "/docs/angularjs/",
-    "source_code_link": "/docs/files/learnangular.html",
+    "source_code_link": "/files/learnangular.html",
     "contributor_text": "Originally contributed by Walter Cordero, and updated by 3 contributor(s).",
     "contributor_link": "https://github.com/adambard/learnxinyminutes-docs/blame/master/angularjs.html.markdown"
   },
   {
     "name": "ansible",
     "language_link": "/docs/ansible/",
-    "source_code_link": "/docs/files/LearnAnsible.txt",
+    "source_code_link": "/files/LearnAnsible.txt",
     "contributor_text": "Originally contributed by Jakub Muszynski, and updated by 10 contributor(s).",
     "contributor_link": "https://github.com/adambard/learnxinyminutes-docs/blame/master/ansible.html.markdown"
   },
   {
     "name": "awk",
     "language_link": "/docs/awk/",
-    "source_code_link": "/docs/files/learnawk.awk",
+    "source_code_link": "/files/learnawk.awk",
     "contributor_text": "Originally contributed by Marshall Mason, and updated by 9 contributor(s).",
     "contributor_link": "https://github.com/adambard/learnxinyminutes-docs/blame/master/awk.html.markdown"
   },
   {
     "name": "bash",
     "language_link": "/docs/bash/",
-    "source_code_link": "/docs/files/LearnBash.sh",
+    "source_code_link": "/files/LearnBash.sh",
     "contributor_text": "Originally contributed by Max Yankov, and updated by 58 contributor(s).",
     "contributor_link": "https://github.com/adambard/learnxinyminutes-docs/blame/master/bash.html.markdown"
   },
   {
     "name": "cmake",
     "language_link": "/docs/cmake/",
-    "source_code_link": "/docs/files/CMake",
+    "source_code_link": "/files/CMake",
     "contributor_text": "Originally contributed by Bruno Alano, and updated by 3 contributor(s).",
     "contributor_link": "https://github.com/adambard/learnxinyminutes-docs/blame/master/cmake.html.markdown"
   },
   {
     "name": "compojure",
     "language_link": "/docs/compojure/",
-    "source_code_link": "/docs/files/learncompojure.clj",
+    "source_code_link": "/files/learncompojure.clj",
     "contributor_text": "Originally contributed by Adam Bard, and updated by 2 contributor(s).",
     "contributor_link": "https://github.com/adambard/learnxinyminutes-docs/blame/master/compojure.html.markdown"
   },
   {
     "name": "composer",
     "language_link": "/docs/php-composer/",
-    "source_code_link": "/docs/files/LearnComposer.sh",
+    "source_code_link": "/files/LearnComposer.sh",
     "contributor_text": "Originally contributed by Brett Taylor, and updated by 0 contributor(s).",
     "contributor_link": "https://github.com/adambard/learnxinyminutes-docs/blame/master/php-composer.html.markdown"
   },
   {
     "name": "DirectX 9",
     "language_link": "/docs/directx9/",
-    "source_code_link": "/docs/files/learndirectx9.cpp",
+    "source_code_link": "/files/learndirectx9.cpp",
     "contributor_text": "Originally contributed by Simon Deitermann, and updated by 1 contributor(s).",
     "contributor_link": "https://github.com/adambard/learnxinyminutes-docs/blame/master/directx9.html.markdown"
   },
   {
     "name": "docker",
     "language_link": "/docs/docker/",
-    "source_code_link": "/docs/files/docker.bat",
+    "source_code_link": "/files/docker.bat",
     "contributor_text": "Originally contributed by Ruslan López, and updated by 6 contributor(s).",
     "contributor_link": "https://github.com/adambard/learnxinyminutes-docs/blame/master/docker.html.markdown"
   },
   {
     "name": "emacs",
     "language_link": "/docs/emacs/",
-    "source_code_link": "/docs/files/emacs.txt",
+    "source_code_link": "/files/emacs.txt",
     "contributor_text": "Originally contributed by Joseph Riad, and updated by 0 contributor(s).",
     "contributor_link": "https://github.com/adambard/learnxinyminutes-docs/blame/master/emacs.html.markdown"
   },
   {
     "name": "fish",
     "language_link": "/docs/fish/",
-    "source_code_link": "/docs/files/learn.fish",
+    "source_code_link": "/files/learn.fish",
     "contributor_text": "Originally contributed by MySurmise, and updated by 0 contributor(s).",
     "contributor_link": "https://github.com/adambard/learnxinyminutes-docs/blame/master/fish.html.markdown"
   },
   {
     "name": "git",
     "language_link": "/docs/git/",
-    "source_code_link": "/docs/files/LearnGit.txt",
+    "source_code_link": "/files/LearnGit.txt",
     "contributor_text": "Originally contributed by Jake Prather, and updated by 35 contributor(s).",
     "contributor_link": "https://github.com/adambard/learnxinyminutes-docs/blame/master/git.html.markdown"
   },
   {
     "name": "jquery",
     "language_link": "/docs/jquery/",
-    "source_code_link": "/docs/files/jquery.js",
+    "source_code_link": "/files/jquery.js",
     "contributor_text": "Originally contributed by Sawyer Charles, and updated by 6 contributor(s).",
     "contributor_link": "https://github.com/adambard/learnxinyminutes-docs/blame/master/jquery.html.markdown"
   },
   {
     "name": "make",
     "language_link": "/docs/make/",
-    "source_code_link": "/docs/files/Makefile",
+    "source_code_link": "/files/Makefile",
     "contributor_text": "Originally contributed by Robert Steed, and updated by 6 contributor(s).",
     "contributor_link": "https://github.com/adambard/learnxinyminutes-docs/blame/master/make.html.markdown"
   },
   {
     "name": "Mercurial",
     "language_link": "/docs/mercurial/",
-    "source_code_link": "/docs/files/LearnMercurial.txt",
+    "source_code_link": "/files/LearnMercurial.txt",
     "contributor_text": "Originally contributed by Will L. Fife, and updated by 3 contributor(s).",
     "contributor_link": "https://github.com/adambard/learnxinyminutes-docs/blame/master/mercurial.html.markdown"
   },
   {
     "name": "messagepack",
     "language_link": "/docs/messagepack/",
-    "source_code_link": "/docs/files/learnmessagepack.mpac",
+    "source_code_link": "/files/learnmessagepack.mpac",
     "contributor_text": "Originally contributed by Gabriel Chuan, and updated by 1 contributor(s).",
     "contributor_link": "https://github.com/adambard/learnxinyminutes-docs/blame/master/messagepack.html.markdown"
   },
   {
     "name": "OpenCV",
     "language_link": "/docs/opencv/",
-    "source_code_link": "/docs/files/learnopencv.py",
+    "source_code_link": "/files/learnopencv.py",
     "contributor_text": "Originally contributed by Yogesh Ojha, and updated by 1 contributor(s).",
     "contributor_link": "https://github.com/adambard/learnxinyminutes-docs/blame/master/opencv.html.markdown"
   },
   {
     "name": "OpenGL",
     "language_link": "/docs/opengl/",
-    "source_code_link": "/docs/files/learnopengl.cpp",
+    "source_code_link": "/files/learnopengl.cpp",
     "contributor_text": "Originally contributed by Simon Deitermann, and updated by 1 contributor(s).",
     "contributor_link": "https://github.com/adambard/learnxinyminutes-docs/blame/master/opengl.html.markdown"
   },
   {
     "name": "p5",
     "language_link": "/docs/p5/",
-    "source_code_link": "/docs/files/p5.js",
+    "source_code_link": "/files/p5.js",
     "contributor_text": "Originally contributed by Amey Bhavsar, and updated by 4 contributor(s).",
     "contributor_link": "https://github.com/adambard/learnxinyminutes-docs/blame/master/p5.html.markdown"
   },
   {
     "name": "powershell",
     "language_link": "/docs/powershell/",
-    "source_code_link": "/docs/files/LearnPowershell.ps1",
+    "source_code_link": "/files/LearnPowershell.ps1",
     "contributor_text": "Originally contributed by Wouter Van Schandevijl, and updated by 6 contributor(s).",
     "contributor_link": "https://github.com/adambard/learnxinyminutes-docs/blame/master/powershell.html.markdown"
   },
   {
     "name": "PyQT",
     "language_link": "/docs/pyqt/",
-    "source_code_link": "/docs/files/learnpyqt.py",
+    "source_code_link": "/files/learnpyqt.py",
     "contributor_text": "Originally contributed by Nathan Hughes, and updated by 1 contributor(s).",
     "contributor_link": "https://github.com/adambard/learnxinyminutes-docs/blame/master/pyqt.html.markdown"
   },
   {
     "name": "Qt Framework",
     "language_link": "/docs/qt/",
-    "source_code_link": "/docs/files/learnqt.cpp",
+    "source_code_link": "/files/learnqt.cpp",
     "contributor_text": "Originally contributed by Aleksey Kholovchuk, and updated by 3 contributor(s).",
     "contributor_link": "https://github.com/adambard/learnxinyminutes-docs/blame/master/qt.html.markdown"
   },
   {
     "name": "raylib",
     "language_link": "/docs/raylib/",
-    "source_code_link": "/docs/files/learnraylib.c",
+    "source_code_link": "/files/learnraylib.c",
     "contributor_text": "Originally contributed by Nikolas Wipper, and updated by 0 contributor(s).",
     "contributor_link": "https://github.com/adambard/learnxinyminutes-docs/blame/master/raylib.html.markdown"
   },
   {
     "name": "ShutIt",
     "language_link": "/docs/shutit/",
-    "source_code_link": "/docs/files/learnshutit.html",
+    "source_code_link": "/files/learnshutit.html",
     "contributor_text": "Originally contributed by Ian Miell, and updated by 2 contributor(s).",
     "contributor_link": "https://github.com/adambard/learnxinyminutes-docs/blame/master/shutit.html.markdown"
   },
   {
     "name": "tcsh",
     "language_link": "/docs/tcsh/",
-    "source_code_link": "/docs/files/LearnTCSH.csh",
+    "source_code_link": "/files/LearnTCSH.csh",
     "contributor_text": "Originally contributed by Nicholas Christopoulos, and updated by 4 contributor(s).",
     "contributor_link": "https://github.com/adambard/learnxinyminutes-docs/blame/master/tcsh.html.markdown"
   },
   {
     "name": "tmux",
     "language_link": "/docs/tmux/",
-    "source_code_link": "/docs/files/LearnTmux.txt",
+    "source_code_link": "/files/LearnTmux.txt",
     "contributor_text": "Originally contributed by mdln, and updated by 8 contributor(s).",
     "contributor_link": "https://github.com/adambard/learnxinyminutes-docs/blame/master/tmux.html.markdown"
   },
   {
     "name": "vim",
     "language_link": "/docs/vim/",
-    "source_code_link": "/docs/files/LearnVim.txt",
+    "source_code_link": "/files/LearnVim.txt",
     "contributor_text": "Originally contributed by RadhikaG, and updated by 12 contributor(s).",
     "contributor_link": "https://github.com/adambard/learnxinyminutes-docs/blame/master/vim.html.markdown"
   },
   {
     "name": "zfs",
     "language_link": "/docs/zfs/",
-    "source_code_link": "/docs/files/LearnZfs.txt",
+    "source_code_link": "/files/LearnZfs.txt",
     "contributor_text": "Originally contributed by sarlalian, and updated by 5 contributor(s).",
     "contributor_link": "https://github.com/adambard/learnxinyminutes-docs/blame/master/zfs.html.markdown"
   }
