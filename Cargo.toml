@@ -1,8 +1,8 @@
 [package]
 name = "xny"
 edition = "2021"
-version = "1.0.2"
-authors = ["Your Name <your@email.com>"]
+version = "1.0.3"
+authors = ["Henrik Zenkert <henrik.zenkert@gmail.com>"]
 license = "AGPL-1.0-or-later"
 description = "A tool to search files"
 readme = "README.md"
@@ -17,3 +17,10 @@ url = "2.3.1"
 minreq = { version = "2.7.0", features = ["https"] }
 clap = { version = "4.4.8", features = ["derive"] }
 serde = { version = "1.0.192", features = ["derive"] }
+
+[profile.release]
+opt-level = 'z'     # Optimize for size
+lto = true          # Enable link-time optimization
+codegen-units = 1   # Reduce number of codegen units to increase optimizations
+panic = 'abort'     # Abort on panic
+strip = true        # Strip symbols from binary*
