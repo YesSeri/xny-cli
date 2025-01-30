@@ -57,7 +57,8 @@ fn display_documentation(
         .find(|info| *info.name.to_lowercase() == language.to_lowercase())
         .ok_or("Could not find language")?;
 
-    let url = Url::parse(&format!("{}{}", URL_PREFIX, &info.source_code_link))?;
+    let base_url = Url::parse(URL_PREFIX)?;
+    let url = base_url.join(&info.source_code_link)?;
 
     let path_segments = url.path_segments().ok_or("invalid path segments")?;
     let file_name = path_segments.last().ok_or("invalid path segments")?;
@@ -98,13 +99,15 @@ fn main() -> Result<(), Box<dyn Error>> {
     } else if let Some(language) = cli.language {
         display_documentation(&language, cli.viewer, info_vec)?;
     } else {
-        println!(r"error: The following required arguments were not provided:
+        println!(
+            r"error: The following required arguments were not provided:
     <LANGUAGE>
 USAGE:
     
     xny [OPTIONS] LANGUAGE 
     xny [OPTIONS] --help
-    xny [OPTIONS] --version");
+    xny [OPTIONS] --version"
+        );
     }
 
     Ok(())
