@@ -1,7 +1,7 @@
 use std::error::Error;
-use std::fs::{create_dir_all, File};
+use std::fs::{create_dir_all, remove_dir_all, File};
 use std::io::{Read, Write};
-use std::path::PathBuf;
+use std::path::{Path, PathBuf};
 
 use clap::Parser;
 use serde::Deserialize;
@@ -23,6 +23,10 @@ struct Cli {
     /// List all available languages to view.
     #[clap(short, long, action)]
     show_languages: bool,
+
+    /// Clears the local cache of docs
+    #[clap(short, long, action)]
+    clear_cache: bool,
 }
 
 #[derive(Debug, Deserialize)]
@@ -34,6 +38,7 @@ struct LinkInfo {
 }
 
 const URL_PREFIX: &str = "https://learnxinyminutes.com/";
+const CACHE_PATH: &str = "/var/tmp/x-in-y";
 
 fn get_infos() -> Result<Vec<LinkInfo>, Box<serde_json::Error>> {
     let text = include_str!("../data.json");
@@ -51,13 +56,14 @@ fn display_documentation(
     viewer: Option<String>,
     info_vec: Vec<LinkInfo>,
 ) -> Result<(), Box<dyn Error>> {
-    let folder = PathBuf::from("/var/tmp/x-in-y");
+    let folder = PathBuf::from(CACHE_PATH);
     let info = info_vec
         .into_iter()
         .find(|info| *info.name.to_lowercase() == language.to_lowercase())
         .ok_or("Could not find language")?;
 
-    let url = Url::parse(&format!("{}{}", URL_PREFIX, &info.source_code_link))?;
+    let base_url = Url::parse(URL_PREFIX)?;
+    let url = base_url.join(&info.source_code_link)?;
 
     let path_segments = url.path_segments().ok_or("invalid path segments")?;
     let file_name = path_segments.last().ok_or("invalid path segments")?;
@@ -88,8 +94,24 @@ fn display_documentation(
     }
     Ok(())
 }
+
+fn clear_cache() -> Result<(), Box<std::io::Error>> {
+    if !Path::new(CACHE_PATH).is_dir() {
+        println!("Nothing to clear");
+        return Ok(());
+    }
+
+    remove_dir_all(CACHE_PATH)?;
+    println!("Successfully cleared cache");
+    Ok(())
+}
+
 fn main() -> Result<(), Box<dyn Error>> {
     let cli = Cli::parse();
+
+    if cli.clear_cache {
+        return Ok(clear_cache()?);
+    }
 
     let info_vec = get_infos()?;
 
@@ -98,13 +120,15 @@ fn main() -> Result<(), Box<dyn Error>> {
     } else if let Some(language) = cli.language {
         display_documentation(&language, cli.viewer, info_vec)?;
     } else {
-        println!(r"error: The following required arguments were not provided:
+        println!(
+            r"error: The following required arguments were not provided:
     <LANGUAGE>
 USAGE:
     
     xny [OPTIONS] LANGUAGE 
     xny [OPTIONS] --help
-    xny [OPTIONS] --version");
+    xny [OPTIONS] --version"
+        );
     }
 
     Ok(())
