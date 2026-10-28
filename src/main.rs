@@ -110,6 +110,10 @@ fn fetch_catalog() -> Result<Vec<LinkInfo>, Box<dyn Error>> {
         MAX_ARCHIVE_BYTES,
         "upstream catalogue archive",
     )?;
+    parse_catalog_archive(archive)
+}
+
+fn parse_catalog_archive(archive: Vec<u8>) -> Result<Vec<LinkInfo>, Box<dyn Error>> {
     let mut zip = zip::ZipArchive::new(Cursor::new(archive))?;
     let mut infos = Vec::new();
 
@@ -144,11 +148,7 @@ fn fetch_catalog() -> Result<Vec<LinkInfo>, Box<dyn Error>> {
             eprintln!("Skipping {relative_path}: filename is missing");
             continue;
         };
-        if Path::new(&filename)
-            .file_name()
-            .and_then(|name| name.to_str())
-            != Some(&filename)
-        {
+        if !is_safe_filename(&filename) {
             eprintln!("Skipping {relative_path}: invalid output filename");
             continue;
         }
@@ -182,13 +182,7 @@ fn fetch_catalog() -> Result<Vec<LinkInfo>, Box<dyn Error>> {
         });
     }
 
-    infos.sort_by(|left, right| {
-        left.name
-            .chars()
-            .flat_map(char::to_lowercase)
-            .cmp(right.name.chars().flat_map(char::to_lowercase))
-            .then_with(|| left.name.cmp(&right.name))
-    });
+    sort_catalogue(&mut infos);
     if infos.is_empty() {
         return Err("No guides found in the upstream docs archive".into());
     }
@@ -206,6 +200,29 @@ fn read_limited(
         return Err(format!("{label} exceeds the {} byte limit", limit).into());
     }
     Ok(bytes)
+}
+
+fn is_safe_filename(filename: &str) -> bool {
+    Path::new(filename)
+        .file_name()
+        .and_then(|name| name.to_str())
+        == Some(filename)
+}
+
+fn sort_catalogue(infos: &mut [LinkInfo]) {
+    infos.sort_by(|left, right| {
+        left.name
+            .chars()
+            .flat_map(char::to_lowercase)
+            .cmp(right.name.chars().flat_map(char::to_lowercase))
+            .then_with(|| left.name.cmp(&right.name))
+    });
+}
+
+fn same_language(left: &str, right: &str) -> bool {
+    left.chars()
+        .flat_map(char::to_lowercase)
+        .eq(right.chars().flat_map(char::to_lowercase))
 }
 
 fn parse_front_matter(markdown: &str) -> Option<&str> {
@@ -240,13 +257,7 @@ mod tests {
                 contributor_link: String::new(),
             })
             .to_vec();
-        infos.sort_by(|a, b| {
-            a.name
-                .chars()
-                .flat_map(char::to_lowercase)
-                .cmp(b.name.chars().flat_map(char::to_lowercase))
-                .then_with(|| a.name.cmp(&b.name))
-        });
+        sort_catalogue(&mut infos);
         assert_eq!(show_available_langs(infos), "Ada\nC\nrust");
     }
 
@@ -268,17 +279,116 @@ mod tests {
     }
 
     #[test]
-    fn read_limited_rejects_oversized_input() {
-        let mut input = Cursor::new(b"12345");
-        assert!(read_limited(&mut input, 4, "test input").is_err());
+    fn language_matching_is_case_insensitive_for_unicode() {
+        assert!(same_language("Ångström", "ångström"));
+        assert!(!same_language("Ångström", "angstrom"));
     }
 
     #[test]
-    fn language_matching_is_case_insensitive_for_unicode() {
-        assert!("Ångström"
-            .chars()
-            .flat_map(char::to_lowercase)
-            .eq("ångström".chars().flat_map(char::to_lowercase)));
+    fn sorts_unicode_names_and_breaks_case_ties_deterministically() {
+        let mut infos = ["ångström", "Zebra", "Ångström"].map(|name| LinkInfo {
+            name: name.to_string(),
+            filename: String::new(),
+            contributor_text: String::new(),
+            contributor_link: String::new(),
+        });
+        sort_catalogue(&mut infos);
+        assert_eq!(
+            infos.map(|info| info.name),
+            ["Zebra", "Ångström", "ångström"]
+        );
+    }
+
+    #[test]
+    fn accepts_cli_option_combinations_and_rejects_conflicts() {
+        assert!(Cli::try_parse_from(["xny", "--update-catalog", "rust"]).is_ok());
+        assert!(Cli::try_parse_from(["xny", "--update-catalog", "--show-languages"]).is_ok());
+        assert!(Cli::try_parse_from(["xny", "--show-languages", "rust"]).is_err());
+        assert!(Cli::try_parse_from(["xny", "--show-languages", "--viewer", "cat"]).is_err());
+        assert!(Cli::try_parse_from(["xny", "--clear-cache", "rust"]).is_err());
+    }
+
+    #[test]
+    fn validates_output_filenames() {
+        assert!(is_safe_filename("rust.html"));
+        assert!(is_safe_filename("Learn Rust.txt"));
+        assert!(!is_safe_filename("../rust.html"));
+        assert!(!is_safe_filename("dir/rust.html"));
+    }
+
+    #[test]
+    fn reads_data_at_limit_and_rejects_data_over_limit() {
+        let mut exact = Cursor::new(b"1234");
+        assert_eq!(read_limited(&mut exact, 4, "test input").unwrap(), b"1234");
+        let mut oversized = Cursor::new(b"12345");
+        assert!(read_limited(&mut oversized, 4, "test input").is_err());
+    }
+
+    #[test]
+    fn parses_crlf_frontmatter_and_rejects_unclosed_frontmatter() {
+        assert_eq!(
+            parse_front_matter("---\r\nname: Rust\r\n---\r\nbody"),
+            Some("name: Rust\r")
+        );
+        assert_eq!(parse_front_matter("---\nname: Rust\nbody"), None);
+    }
+
+    #[test]
+    fn valid_cache_skips_fetch_and_failed_refresh_uses_valid_cache() {
+        let path = std::env::temp_dir().join(format!("xny-cache-test-{}.json", std::process::id()));
+        let cached = vec![LinkInfo {
+            name: "Rust".into(),
+            filename: "rust.html".into(),
+            contributor_text: String::new(),
+            contributor_link: String::new(),
+        }];
+        std::fs::write(&path, serde_json::to_vec(&cached).unwrap()).unwrap();
+
+        let loaded =
+            get_infos_from(&path, false, || panic!("valid cache should skip fetch")).unwrap();
+        assert_eq!(loaded[0].name, "Rust");
+
+        let fallback = get_infos_from(&path, true, || Err("network unavailable".into())).unwrap();
+        assert_eq!(fallback[0].name, "Rust");
+        std::fs::remove_file(path).unwrap();
+    }
+
+    #[test]
+    fn invalid_cache_does_not_hide_refresh_failure() {
+        let path = std::env::temp_dir().join(format!(
+            "xny-invalid-cache-test-{}.json",
+            std::process::id()
+        ));
+        std::fs::write(&path, "not json").unwrap();
+        let error = get_infos_from(&path, false, || Err("network unavailable".into())).unwrap_err();
+        assert!(error.to_string().contains("network unavailable"));
+        std::fs::remove_file(path).unwrap();
+    }
+
+    #[test]
+    fn parses_archive_guides_and_skips_nested_or_unsafe_entries() {
+        let mut writer = zip::ZipWriter::new(Cursor::new(Vec::new()));
+        let options = zip::write::SimpleFileOptions::default();
+        writer.start_file("docs/rust.md", options).unwrap();
+        writer
+            .write_all(b"---\nname: Rust\nfilename: rust.html\n---\nGuide")
+            .unwrap();
+        writer
+            .start_file("docs/nested/ignored.md", options)
+            .unwrap();
+        writer
+            .write_all(b"---\nname: Ignore\nfilename: ignore.html\n---\nGuide")
+            .unwrap();
+        writer.start_file("docs/traversal.md", options).unwrap();
+        writer
+            .write_all(b"---\nname: Unsafe\nfilename: ../unsafe.html\n---\nGuide")
+            .unwrap();
+        let archive = writer.finish().unwrap().into_inner();
+
+        let infos = parse_catalog_archive(archive).unwrap();
+        assert_eq!(infos.len(), 1);
+        assert_eq!(infos[0].name, "Rust");
+        assert_eq!(infos[0].filename, "rust.html");
     }
 }
 
@@ -295,12 +405,7 @@ fn display_documentation(
     let folder = cache_path()?;
     let info = info_vec
         .into_iter()
-        .find(|info| {
-            info.name
-                .chars()
-                .flat_map(char::to_lowercase)
-                .eq(language.chars().flat_map(char::to_lowercase))
-        })
+        .find(|info| same_language(&info.name, language))
         .ok_or("Could not find language")?;
 
     let base_url = Url::parse(URL_PREFIX)?;
