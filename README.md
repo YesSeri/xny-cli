@@ -27,7 +27,7 @@ cargo build --release
 ## Usage
 
 ```bash
-# default viewer is less
+# print the guide to stdout
 xny python
 
 # use bat as viewer
@@ -35,9 +35,17 @@ xny python --viewer bat
 
 # list all languages
 xny -s
+
+# refresh the local language catalogue from the upstream repository
+xny --update-catalog
+
+# refresh the catalogue, then display a guide
+xny python --update-catalog
 ```
 
 `--viewer bat` would show the output in [bat](https://github.com/sharkdp/bat), the `cat` clone which syntax highlights. It is of course possible to pipe the content into bat, but then you need to set the syntax highlighting manually.
+
+The catalogue is created from the English guide metadata in the upstream [Learn X in Y Minutes docs repository](https://github.com/adambard/learnxinyminutes-docs) the first time `xny` runs. It is stored in the platform's standard cache directory under `xny`, alongside downloaded guides. Listing languages and opening already downloaded guides works offline. Run `xny --update-catalog` to refresh the catalogue. `xny -c` clears the catalogue and downloaded guides. `--viewer` is available when opening a guide, and cannot be combined with `--show-languages` or `--clear-cache`; `--show-languages` cannot be combined with a language argument. `--update-catalog` may be combined with either a language or `--show-languages`.
 
 ## Credit
 
