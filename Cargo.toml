@@ -2,7 +2,7 @@
 name = "xny"
 edition = "2021"
 rust-version = "1.88"
-version = "1.0.5"
+version = "1.0.6"
 authors = ["Henrik Zenkert <henrik.zenkert@gmail.com>"]
 license = "AGPL-1.0-or-later"
 description = "A tool to search files"
